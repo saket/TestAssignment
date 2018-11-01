@@ -31,6 +31,10 @@ android {
 }
 
 dependencies {
+  testImplementation "junit:junit:$versions.junit"
+  testImplementation "org.amshove.kluent:kluent:$versions.kluent"
+  testImplementation "org.amshove.kluent:kluent-android:$versions.kluent"
+
   implementation "androidx.appcompat:appcompat:$versions.androidX"
   implementation "androidx.recyclerview:recyclerview:$versions.androidX"
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
