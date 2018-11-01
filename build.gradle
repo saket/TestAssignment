@@ -22,6 +22,7 @@ buildscript {
       androidJUnitExtensions: '1.0.0',
       lazythreetenbp        : '0.3.0',
       threetenbp            : '1.3.6',
+      truth                 : '0.42',
   ]
 
   repositories {

@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
 
-    // Nothing to see here. Go to DateOfBirthValidatorTest and RelativeTimestampGeneratorTest.
+    // Nothing to see here. Go to DateOfBirthValidatorTest and RelativeTimestampGeneratorAndroidTest.
   }
 }

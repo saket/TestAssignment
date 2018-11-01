@@ -5,7 +5,8 @@ package me.saket.baseandroidproject.validator
  */
 class DateOfBirthValidator {
 
-  enum class Result {
+}
 
-  }
+enum class ValidationResult {
+
 }

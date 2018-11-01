@@ -1,6 +1,8 @@
 package me.saket.baseandroidproject
 
+import com.google.common.truth.Truth.assertThat
 import me.saket.baseandroidproject.validator.DateOfBirthValidator
+import me.saket.baseandroidproject.validator.ValidationResult
 import org.junit.Before
 import org.junit.Test
 
@@ -16,8 +18,9 @@ class DateOfBirthValidatorTest {
   @Test
   fun `example test - date shouldn't contain empty whitespaces`() {
     // TODO: Make this pass. To run this test, click the small play icon next to the line numbers.
-    //val result = validator.validate("  14/06/1992 ")
-    //result shouldBeInstanceOf DateOfBirthValidator.Result.ILLEGAL_CHARACTERS
+    val result: ValidationResult = validator.validate("  14/06/1992 ")
+
+    assertThat(result).isEqualTo(ValidationResult.ILLEGAL_CHARACTERS)
   }
 
   @Test

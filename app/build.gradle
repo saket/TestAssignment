@@ -34,11 +34,9 @@ android {
 
 dependencies {
   testImplementation "junit:junit:$versions.junit"
-  testImplementation "org.amshove.kluent:kluent:$versions.kluent"
-  testImplementation "org.amshove.kluent:kluent-android:$versions.kluent"
+  testImplementation "com.google.truth:truth:$versions.truth"
 
-  androidTestImplementation "org.amshove.kluent:kluent:$versions.kluent"
-  androidTestImplementation "org.amshove.kluent:kluent-android:$versions.kluent"
+  androidTestImplementation "com.google.truth:truth:$versions.truth"
   androidTestImplementation "androidx.test:runner:$versions.androidXTest"
   androidTestImplementation "androidx.test:rules:$versions.androidXTest"
   androidTestImplementation "androidx.test.ext:junit:$versions.androidJUnitExtensions"
