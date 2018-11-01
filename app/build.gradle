@@ -16,6 +16,8 @@ android {
     targetSdkVersion versions.compileSdk
     versionCode 1
     versionName "1.0"
+
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
   }
 
   buildTypes {
@@ -34,6 +36,12 @@ dependencies {
   testImplementation "junit:junit:$versions.junit"
   testImplementation "org.amshove.kluent:kluent:$versions.kluent"
   testImplementation "org.amshove.kluent:kluent-android:$versions.kluent"
+
+  androidTestImplementation "org.amshove.kluent:kluent:$versions.kluent"
+  androidTestImplementation "org.amshove.kluent:kluent-android:$versions.kluent"
+  androidTestImplementation "androidx.test:runner:$versions.androidXTest"
+  androidTestImplementation "androidx.test:rules:$versions.androidXTest"
+  androidTestImplementation "androidx.test.ext:junit:$versions.androidJUnitExtensions"
 
   implementation "androidx.appcompat:appcompat:$versions.androidX"
   implementation "androidx.recyclerview:recyclerview:$versions.androidX"
@@ -54,4 +62,6 @@ dependencies {
   implementation "io.reactivex.rxjava2:rxandroid:$versions.rxAndroid"
   implementation "com.jakewharton.rxbinding2:rxbinding:$versions.rxBindings"
   implementation "com.jakewharton.rxrelay2:rxrelay:$versions.rxRelay"
+  implementation "org.threeten:threetenbp:$versions.threetenbp:no-tzdb"
+  implementation "com.gabrielittner.threetenbp:lazythreetenbp:$versions.lazythreetenbp"
 }

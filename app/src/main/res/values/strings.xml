@@ -1,3 +1,8 @@
 <resources>
   <string name="app_name">BaseAndroidProject</string>
+
+  <string name="today">Today</string>
+  <string name="yesterday">Yesterday</string>
+  <string name="days_ago">%s days ago</string>
+  <string name="full_date">%1$s %2$s, %3$s</string> <!-- {date} {month}, {year} -->
 </resources>

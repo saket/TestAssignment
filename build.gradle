@@ -1,22 +1,27 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-  ext.versions = [
-      minSdk     : 21,
-      compileSdk : 28,
-      androidX   : '1.0.0',
-      retrofit   : '2.2.0',
-      dagger     : '2.10',
-      butterKnife: '8.8.1',
-      timber     : '4.7.1',
-      kotlin     : '1.3.0',
-      moshi      : '1.7.0',
-      rxJava     : '2.2.2',
-      rxAndroid  : '2.1.0',
-      rxBindings : '2.2.0',
-      rxRelay    : '2.1.0',
-      junit      : '4.12',
-      kluent     : '1.42',
+  ext {
+  }.versions = [
+      minSdk                : 21,
+      compileSdk            : 28,
+      androidX              : '1.0.0',
+      retrofit              : '2.2.0',
+      dagger                : '2.10',
+      butterKnife           : '8.8.1',
+      timber                : '4.7.1',
+      kotlin                : '1.3.0',
+      moshi                 : '1.7.0',
+      rxJava                : '2.2.2',
+      rxAndroid             : '2.1.0',
+      rxBindings            : '2.2.0',
+      rxRelay               : '2.1.0',
+      junit                 : '4.12',
+      kluent                : '1.42',
+      androidXTest          : '1.1.0',
+      androidJUnitExtensions: '1.0.0',
+      lazythreetenbp        : '0.3.0',
+      threetenbp            : '1.3.6',
   ]
 
   repositories {
