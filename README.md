@@ -3,9 +3,9 @@ I'm building this assignment to help people get started with writing tests and T
 ### Chapters
 
 #### 1. Validate date of birth
-For a hypothetical user profile screen, the user’s date of birth needs to validated. 
+For a hypothetical user profile screen, the user’s date of birth needs to validated.
 
-* The date’s pattern should be `d/MM/yyyy`.  E.g., `11/04/1992`. 
+* The date’s pattern should be `d/MM/yyyy`.  E.g., `11/04/1992`.
 * The date should not be in the future.
 
 The unit tests for this can be found in [DateOfBirthValidatorTest](https://github.com/saket/TestAssignment/blob/master/app/src/test/java/me/saket/testassignment/DateOfBirthValidatorTest.kt). The tests are named to match the business spec, but they’re empty. Your mission, should you choose to accept it, is to complete them with expected results and make them pass.
@@ -31,10 +31,23 @@ Unit tests:
 ./gradlew testDebug
 ```
 
-Android tests: 
+Android tests:
 ```
 ./gradlew connectedDebugAndroidTest
 ```
 
 #### ThreeTenABP
 This assignment uses lazythreetenbp for working with date and time. Due to some limitations in IntelliJ, the IDE doesn't know how to find and download its sources. As a work around, the sources are included with this project as a JAR inside [libraries](https://github.com/saket/TestAssignment/tree/master/libraries) package that can be manually attached to Android Studio.
+
+### License
+
+```
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+Full license can be read here: https://github.com/saket/TestAssignment/blob/master/LICENSE
+```
