@@ -18,7 +18,7 @@ Given a date, generate relative timestamps that will be displayed on the UI. Ass
 * If the date is within the current month, generate `{days} ago`. E.g., `24 days ago`.
 * For dates older than that, print `{date} {month}, {year}`. E.g., `5 Jun 2018`, `21 Oct 2017`, etc.
 
-These strings must be accessed through `strings.xml` keeping localization in mind. Because accessing them requires Android's context, tests for this chapter will run as Android tests and are present in [RelativeTimestampGeneratorAndroidTest](https://github.com/saket/TestAssignment/blob/master/app/src/androidTest/java/me/saket/testassignment/RelativeTimestampGeneratorAndroidTest.kt)
+These strings must be accessed through `strings.xml` keeping localization in mind. Because accessing them requires Android's context, tests for this chapter will run as Android tests and are present in [RelativeTimestampGeneratorAndroidTest](https://github.com/saket/TestAssignment/blob/master/app/src/androidTest/java/me/saket/testassignment/RelativeTimestampGeneratorAndroidTest.kt).
 
 ### Useful information
 
