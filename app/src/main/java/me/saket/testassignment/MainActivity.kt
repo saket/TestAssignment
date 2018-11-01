@@ -1,4 +1,4 @@
-package me.saket.baseandroidproject
+package me.saket.testassignment
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
